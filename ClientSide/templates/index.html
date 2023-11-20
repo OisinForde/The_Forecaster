@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+        </div>
+
+        <div id="current_container">
+            <h2 id="City_Name">Melbourne</h2>
+            <p id="rain_chance">40% chance of rain</p>
+            <h1 id="CurrentTemp">31 C</h1>
+            <img id="CurrentIcon" src="" alt="Sunny">
+        </div>
+        
+        <div id="hourly_forecast_container">
+            <span class="Hourly_Forecast">
+                <h4>6:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>5mm</p>
+                <p>21 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>9:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>12:00 Pm</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>3:00 Pm</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>6:00 Pm</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>9:00 Pm</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>12:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>3:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>0mm</p>
+                <p>31 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>6:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>5mm</p>
+                <p>21 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>6:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>5mm</p>
+                <p>21 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>6:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>5mm</p>
+                <p>21 C</p>
+            </span>
+            <span class="Hourly_Forecast">
+                <h4>6:00 Am</h4>
+                <img src="" alt="RainIcon" class="RainIcon">
+                <p>5mm</p>
+                <p>21 C</p>
+            </span>
+            
+        </div>
+        
+        <div id="Daily_Forecast_Container">
+            <span id="Key">
+                <h4>Day</h4>
+                <h4>|</h4>
+                <h4>Min°C/Avg°C/Max°C</h4>
+                <h4>|</h4>
+                <h4>Precipitation</h4>
+            </span>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            <div class="daily_forecast">
+                <h4>Monday</h4>
+                <p class="dailyTemp">25 C</p>
+                <p>23%</p>
+                <img src="" alt="icon">
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='js/city-selection.js') }}"></script>
+</html>

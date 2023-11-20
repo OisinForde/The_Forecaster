@@ -1,0 +1,126 @@
+*{
+    font-family: monospace;
+}
+
+#search-container{
+    position: relative;
+    left: 2%;
+    top: 5%;
+}
+
+#search-input{
+    height: 30px;
+    width: 48%;
+    border-radius: 10px;
+}
+
+#search-button{
+    height: 33px;
+    width: 8%;
+    border-radius: 10px;
+}
+
+#current_container{
+    background-color: white;
+    padding-left: 10px;
+    position: relative;
+    border-radius: 10px;
+    height: 30vh;
+    width: 48%;
+    left: 2%;
+    font-size: 1.25vw;
+    margin-bottom: 10px;
+}
+
+#current_container *{
+    margin: 10px;
+}
+
+#CurrentTemp{
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 5vw;
+}
+
+#CurrentIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-50%);
+    width: 10vw;
+    height: 10vw;
+}
+
+#hourly_forecast_container{
+    left: 2%;
+    background-color: rgb(228, 227, 226);
+    position: relative;
+    width: 48.75%;
+    height: 56vh;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+span.Hourly_Forecast{
+    display: inline-block;
+    margin-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    background-color: rgb(185, 177, 177);
+    height:max-content;
+    width:auto;
+    min-width: 83px;
+    border-radius: 10px;
+}
+
+span.Hourly_Forecast *{
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.RainIcon{
+    height: 5vw;
+    width: 5vw;
+}
+
+#Key *{
+    display: inline-block;
+    margin-left: 2.5vw;
+}
+
+#Daily_Forecast_Container{
+    position: absolute;
+    width: 46%;
+    left:52%;
+    top:5px;
+    border-radius: 10px;
+    background-color: rgb(228, 227, 226);
+}
+
+.daily_forecast{
+    margin: 5px;
+    background-color: rgb(185, 177, 177);
+    border-radius: 10px;
+}
+
+.daily_forecast *{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: large;
+}
+
+
+
+.daily_forecast h4{
+    font-size: large;
+}
+
+.daily_forecast img{
+    position: relative;
+    top: 16px;
+    height: 64px;
+}
